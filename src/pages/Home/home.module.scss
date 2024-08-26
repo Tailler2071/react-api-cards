@@ -1,0 +1,47 @@
+.box {
+  padding: 100px 0;
+  height: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.loading {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.title {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.button {
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  font-weight: 700;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 20px;
+}
+
+.info {
+  padding: 100px;
+  text-align: center;
+
+  p {
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+}

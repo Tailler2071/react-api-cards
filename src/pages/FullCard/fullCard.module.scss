@@ -1,0 +1,44 @@
+.box {
+  margin: 0 auto;
+  max-width: 800px;
+  padding-top: 60px;
+}
+
+.loading {
+  color: #FFFFFF;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.image {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.summary {
+  color: #9CA0D2;
+  font-size: 14px;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  background-color: #051ac4;
+  color: #FFFFFF;
+  z-index: 4;
+  justify-self: center;
+
+  padding: 10px 15px;
+  font-weight: 700;
+  border-radius: 10px;
+  margin-bottom: 40px;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
